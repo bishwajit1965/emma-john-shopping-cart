@@ -1,0 +1,18 @@
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 1rem;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 0rem;
+}
+.product-image {
+  border-radius: 0.5rem;
+}
+
+.cart-container {
+  background-color: #ffe0b3;
+}

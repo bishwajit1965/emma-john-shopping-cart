@@ -1,0 +1,19 @@
+.products-cart-wrapper {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  gap: 1.5rem;
+}
+.cart-container {
+  position: sticky;
+  top: 80px;
+}
+/* Media queries */
+@media only screen and (max-width: 670px) {
+  .products-cart-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0.2rem;
+  }
+}

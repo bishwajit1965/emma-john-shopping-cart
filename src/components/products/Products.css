@@ -1,0 +1,23 @@
+.products-container {
+  padding: 2rem 5rem;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.pagination {
+  text-align: center;
+  margin: 2rem 0rem;
+}
+.pagination .selected {
+  background-color: #f59e0b;
+}
+
+/* Media queries */
+@media only screen and (max-width: 670px) {
+  .products-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0.2rem;
+  }
+}
